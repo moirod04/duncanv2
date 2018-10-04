@@ -27,7 +27,7 @@
 				        <a class="nav-link lang" href="#" key="servicios">SERVICIOS</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link lang" href="#" key="contacto">CONTACTO</a>
+				        <a class="nav-link lang" href="contacto.php" key="contacto">CONTACTO</a>
 				      </li>
 				    </ul>
 				  </div>

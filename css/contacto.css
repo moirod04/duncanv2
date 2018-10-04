@@ -59,7 +59,7 @@ header{
 	background-color: #282b2e;
 	color: #edbd04;
 	text-align: center;
-	padding: 20px;
+	padding: 20px 150px;
 }
 
 .trabaja{
@@ -86,9 +86,9 @@ header{
 .contacto1 div{
 	background-color: #282b2e;
 	color:#edbd04; 
-	width: 340px;
+	width: 280px;
 	text-align: center; 
-	margin-left: 190px;
+	margin-left: 180px;
 	/*height: 30px;*/
 	padding: 10px;
 }

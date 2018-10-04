@@ -39,7 +39,7 @@
 				<div class="col-sm-6 contacto1">
 					<img src="images/lupa.png">
 					<div>
-						<a class="botonmail" href="mailto:SELECCIONDETALENTO@DUNCAN.COM.VE">SELECCIONDETALENTO@DUNCAN.COM.VE</a>
+						<a class="botonmail" href="mailto:SELECCIONDETALENTO@DUNCAN.COM.VE">Escribenos</a>
 					</div>
 				</div>
 				<div class="col-sm-6 contacto2">
