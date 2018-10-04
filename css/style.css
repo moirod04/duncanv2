@@ -1,0 +1,620 @@
+body{
+		overflow-x: hidden;
+	}
+html{
+		overflow-x: hidden;
+	}
+div.row{
+	margin-right: 0px;
+}
+div.container{
+	padding-right: 0px;
+}
+div.container-fluid{
+	padding-right: 0px;
+}
+.col-sm-12 {
+    padding-right: 0px;
+}
+.carousel{
+	padding: 0px;
+	width: 100%;
+}
+header{
+	background-color: black;
+	color: white;
+}
+.pais{
+	color:  #edbd04;
+	margin-right: 10px;
+}
+.botonmail{
+	text-decoration: none;
+	color: black;
+}
+.idioma{
+	color:  #edbd04;
+}
+.bg-dark {
+    background-color: black !important;
+    color: white;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.logo-header{
+	margin-left: 80px;
+	margin-right: 10px;
+}
+
+.texto-carrusel{
+	position: relative;
+	margin-top: 50px;
+}
+
+.buscar{
+	margin-left: 25px;
+	margin-right: 80px;
+}
+.titulo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.loremipsum{
+	background-color: #282b2e;
+	color: #edbd04;
+	text-align: center;
+	padding: 20px;
+}
+.formulario-encuentra{
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 200px;
+}
+.formulario-comprar{
+	position: relative;
+	margin-top: 130px;
+	margin-bottom: 390px;
+}
+.formulario-encuentra .form-control {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+
+}
+.formulario-comprar .form-control {
+    color: black;
+    background-color: #edbd04;
+    border: 1px solid #edbd04;
+}
+.formulario-comprar p {
+    color: #edbd04;
+}
+
+.form-check-label {
+    font-size: 11px;
+}
+.formulario-comprar .btn-light {
+    color: #edbd04;
+    background-color: #000000;
+    border-color: #edbd04;
+}
+.ofrecemos{
+	background-color: #282b2e;
+	text-align: center;
+	padding: 20px;
+}
+
+.ofrecemos p{
+	color: white;
+}
+
+.ofrecemos span{
+	color: #edbd04;
+}
+
+.preguntas{
+	background-color: #282b2e;
+	color: #edbd04;
+	padding: 40px;
+}
+.habla{
+	margin-bottom: 20px;
+}
+.contacto1{
+	text-align: center;
+}
+
+.contacto1 div{
+	background-color: #edbd04;
+	color:black; 
+	width: 230px;
+	text-align: center; 
+	margin-left: 190px;
+	/*height: 30px;*/
+	padding: 10px;
+}
+.contacto1 img{
+	margin-bottom: 10px;
+}
+.contacto2{
+	text-align: center;
+}
+.contacto2 div{
+	background-color: #edbd04;
+	color:black; 
+	width: 280px;
+	text-align: center; 
+	margin-left: 180px;
+	/*height: 30px;*/
+	padding: 10px;
+}
+.contacto2 img{
+	width: 12.5%;
+	margin-bottom: 25px;
+}
+
+footer{
+	background-color: black;
+	padding: 50px;
+}
+
+.logo-foot{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.subtitulos{
+	color:#edbd04;
+}
+.translate{
+	color:#edbd04;
+}
+.translate:hover{
+	color:#edbd04;
+}
+
+.links-foot{
+	padding: 30px; 
+	color: white;
+	margin-left: 30px;
+}
+.productos{
+	padding: 25px 40px 40px 40px;
+}
+
+.productos-img{
+	margin-right: 45px;
+	margin-left: 50px;
+}
+
+.boton{
+	text-align: center;
+}
+.boton button{
+	background-color: #edbd04;
+}
+.copyright{
+	text-align: center;
+	color:  #edbd04;
+}
+
+.line{
+	width: 100%;
+}
+
+.reciclable{
+	width: 100%;
+}
+
+.responsive{
+	display: none;
+}
+
+.nav-link{
+	margin-right: 20px;
+}
+.responsive-mobile{
+	display: none;
+}
+
+.productos-responsive{
+	display: none;
+}
+
+.productos-responsive-mobile{
+	display: none;
+}
+
+ul{
+	list-style:none;
+}
+
+.links-foot-mobile{
+	display: none;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+	.headmargin {
+		margin-right: -270px !important;
+
+	}
+	.buscar {
+    	margin-left: 25px;
+    	margin-right: 20px;
+	}
+	.productos-img {
+    	margin-right: 10px;
+    	margin-left: 65px;
+	}
+	.imgcompletas {
+		margin-left: -80px !important;
+	}
+	.titlenew {
+		margin-top: -100px;
+	}
+	
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+	.formulario-encuentra{
+		position: relative;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.textp {
+		margin-left: -24px;
+	}
+	.headmargin {
+		margin-right: -240px !important;
+	}
+
+	.no-responsive{
+		display: none;
+	}
+	.responsive{
+		display: block;
+	}
+	.productos-responsive{
+		display: block;
+	}
+	.formulario-comprar {
+	   	margin-top: 73px;
+	    margin-bottom: 180px;
+	}
+	.contacto1 div{
+		margin-left: 45px;
+	}
+	.contacto2 div{
+		margin-left: 33px;
+	}
+	.contacto2 img{
+		width: 22.5%
+	}
+	.productos-img {
+	    margin-right: 60px;
+	    margin-top: 40px;
+	}
+
+	.elementos-foot{
+		margin-right: 100px;
+	}
+
+	.line{
+		width: 100%;
+	}
+
+	.navbar-toggler{
+		margin-right: 40px;
+	}
+
+	.links-foot{
+		padding: 15px;
+		color: white;
+		margin-left: 36px;
+	}
+	.productos-img{
+		margin-right: 55px;
+		margin-left: 0px;
+	}
+
+	.productos-responsive{
+		margin-left: 25px;
+	}
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px){
+	.titulo-productos {
+		margin-top: -52px;
+	}
+	.pais {
+		margin-right: 0px;
+	}
+	.headmargin {
+		margin-right: -180px !important;
+	}
+	.productos-responsive-mobile{
+		display: block;
+	}
+	.no-responsive{
+		display: none;
+	}
+	.productos-responsive{
+		display: none;
+	}
+	.responsive-mobile{
+		display: block;
+	}
+	.no-responsive-mobile{
+		display: none;
+	}
+	.logo-header{
+		margin-left: 10px;
+	}
+
+	.buscar{
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+
+	.fa-map-marker-alt{
+		display: none;
+	}
+
+	.productos-img {
+	    margin-right: 54px;
+	    margin-top: 30px;
+	}
+
+	.formulario-encuentra{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: #edbd04;
+	}
+
+	.formulario-comprar {
+	   	margin-top: 20px;
+	    margin-bottom: 100px;
+	}
+
+	.btn-light{
+		margin-bottom: 10px;
+	}
+
+	.contacto1 div{
+		margin-left: 45px;
+		margin-bottom: 20px;
+	}
+	.contacto2 div{
+		margin-left: 33px;
+	}
+	.contacto2 img{
+		width: auto;
+	}
+	.elementos-foot{
+		margin-right: 50px;
+	}
+	.links-foot{
+		display: none;
+	}
+	.links-foot-mobile{
+		display: block;
+	}
+	.productos-img{
+		margin-right: 45px;
+		margin-left: 15px;
+	}
+	.carousel-productos{
+		margin-left: 105px;
+	}
+	.products {
+	    width: 40%!important;
+	    margin-left: 25px;
+    	height: 300px;
+	}
+	footer{
+		padding: 30px;
+	}
+	.line{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 375px) and (min-width: 321px){
+	.titulo {
+		margin-top: -25px;
+	}
+	.pais {
+		margin-right: 0px;
+	}
+	.headmargin {
+		margin-right: -102px !important;
+	}
+	.productos-responsive-mobile{
+		display: block;
+	}
+	.no-responsive{
+		display: none;
+	}
+	.productos-responsive{
+		display: none;
+	}
+	.responsive-mobile{
+		display: block;
+	}
+	.no-responsive-mobile{
+		display: none;
+	}
+	.logo-header{
+		margin-left: 10px;
+	}
+
+	.buscar{
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+
+	.fa-map-marker-alt{
+		display: none;
+	}
+
+	.productos-img {
+	    margin-right: 50px;
+	    margin-top: 30px;
+	}
+
+	.formulario-encuentra{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: #edbd04;
+	}
+
+	.formulario-comprar {
+	   	margin-top: 20px;
+	    margin-bottom: 46px;
+	}
+
+	.btn-light{
+		margin-bottom: 10px;
+	}
+
+	.contacto1 div{
+		margin-left: 30px;
+		margin-bottom: 20px;
+	}
+	.contacto2 div{
+		margin-left: 16px;
+	}
+	.contacto2 img{
+		width: auto;
+	}
+	.elementos-foot{
+		margin-right: 47px;
+	}
+	.links-foot{
+		display: none;
+	}
+	.links-foot-mobile{
+		display: block;
+	}
+	footer{
+		padding: 30px;
+	}
+	.productos-img{
+		margin-left: 73px;
+	}
+	.carousel-productos{
+		margin-left: 92px;
+	}
+	.products {
+	    width: 40%!important;
+	    margin-left: 20px;
+    	height: 250px;
+	}
+	.line{
+		width: 100%;
+	}
+
+
+}
+
+@media screen and (max-width: 320px) and (min-width: 180px){
+	.productos-responsive-mobile{
+		display: block;
+	}
+	.no-responsive{
+		display: none;
+	}
+	.productos-responsive{
+		display: none;
+	}
+	.responsive-mobile{
+		display: block;
+	}
+	.no-responsive-mobile{
+		display: none;
+	}
+	.logo-header{
+		margin-left: 10px;
+	}
+
+	.buscar{
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+
+	.fa-map-marker-alt{
+		display: none;
+	}
+
+	.productos-img {
+	    margin-left: 40px;
+	    margin-top: 30px;
+	}
+
+	.formulario-encuentra{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: #edbd04;
+	}
+
+	.formulario-comprar {
+	   	margin-top: 0px;
+	    margin-bottom: 35px;
+	}
+
+	.btn-light{
+		margin-bottom: 10px;
+	}
+
+	.contacto1 div{
+		margin-left: 5px;
+		margin-bottom: 20px;
+	}
+	.contacto2 div{
+		margin-left: -18px;
+	}
+	.contacto2 img{
+		width: auto;
+	}
+	.elementos-foot{
+		margin-right: 50px;
+	}
+	.links-foot{
+		display: none;
+	}
+	.links-foot-mobile{
+		display: block;
+	}
+	footer{
+		padding: 30px;
+	}
+	.form-check-label {
+	    font-size: 10px;
+	}
+
+	.carousel-productos{
+		margin-left: 75px;
+	}
+	.products {
+	    width: 40%!important;
+	    margin-left: 20px;
+   		height: 230px;
+	}
+	.titulo {
+		margin-top: -25px;
+	}
+
+	.pais {
+		margin-right: 0px;
+	}
+	.headmargin {
+		margin-right: -102px !important;
+	}
+}
+
